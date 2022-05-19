@@ -18,6 +18,8 @@ namespace Demo_Abstraction
 
             attrac3.StopEmergency();
             attrac4.StopEmergency();
+
+            Console.WriteLine(Attraction.Count);
         }
     }
 }
